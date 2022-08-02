@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+<head>
+</head>
+<body>
+
+<p>Enter your age: <input id="first"></p>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button onclick="add()">Check</button>
+
+<script>
+    function add()
+    {
+        var age;
+        age = parseInt(document.getElementById("first").value);
+        if(age>=18){
+            document.write("yeah! You can drive")
+        }
+        else{
+            document.write("sorry!  You can't drive")
+        }
+    }
+    </script>
+
+</body>
+</html>
